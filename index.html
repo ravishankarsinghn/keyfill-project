@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en-IN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" type="image/png" href="./img/icon.png" />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <title>The fictional Company | An Interview Project</title>
+
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav">
+        <img src="./img/logo.png" alt="Logo" class="nav__logo" id="logo" />
+
+        <ul class="nav__links">
+          <li class="nav__item"><a href="#" class="nav__link">Home</a></li>
+          <li class="nav__item">
+            <a href="#section--about-us" class="nav__link">About us</a>
+          </li>
+          <li class="nav__item">
+            <a href="#section--contact-us" class="nav__link">Contact us</a>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="header__title">
+        <div>
+          <h1>The <span class="highlight">Fictional</span> Company</h1>
+
+          <h4>A simple home page for Frontend interview project.</h4>
+        </div>
+
+        <button class="btn--text btn--scroll-to">Learn more &DownArrow;</button>
+      </div>
+    </header>
+
+    <section class="section" id="section--about-us">
+      <div class="section__title">
+        <h2 class="section__header">About Us!</h2>
+      </div>
+
+      <div class="section__content">
+        <h3>
+          We are a fictional company. We are not an active company. Lorem ipsum
+          dolor, sit amet consectetur adipisicing elit. Iure, vitae?
+        </h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. At accusamus
+          veritatis quam pariatur voluptates provident corrupti dicta quia
+          ipsum, deleniti nobis necessitatibus sed cum culpa quae repellat
+          officia rerum iste sit animi quibusdam expedita, dolore possimus.
+          Atque fuga quae, soluta quis veniam esse nihil minima sapiente aliquam
+          saepe aliquid magni animi, doloremque hic impedit unde tempore. Minus,
+          repellendus? Iure doloremque vitae, iusto nesciunt voluptas inventore
+          laborum neque veritatis suscipit atque at voluptatum quidem rem, aut
+          odit saepe. Consequuntur consectetur earum alias? Enim iure illum
+          voluptatem sapiente labore animi cumque magni ex totam vero,
+          accusantium officia saepe perferendis, quos ad sunt adipisci facere
+          doloremque omnis quae! Impedit eum repellat suscipit, totam tenetur
+          cum quisquam magni vitae, rem, illum harum laboriosam facilis eius
+          doloremque fugit qui enim consequuntur inventore corporis! Vero
+          exercitationem officiis, necessitatibus blanditiis id, animi impedit
+          harum accusamus saepe molestias reprehenderit voluptatum nihil.
+        </p>
+        <p>
+          Quis harum, nisi aliquid voluptates praesentium aut doloremque
+          architecto molestiae culpa iusto in nulla ab quos voluptatibus quo
+          distinctio nam. Omnis impedit ut, tempore nemo dignissimos dolorem
+          blanditiis, possimus quisquam doloribus accusamus iusto recusandae
+          eaque eveniet alias. Possimus ipsum quam vel obcaecati adipisci fugiat
+          autem, officia pariatur quae est ut magnam necessitatibus nobis
+          assumenda hic et mollitia!
+        </p>
+      </div>
+    </section>
+
+    <section class="section" id="section--contact-us">
+      <div class="section__title">
+        <h2 class="section__header">Contact Us!</h2>
+      </div>
+
+      <div class="section__contact-content">
+        <div class="section__map">
+          <h2>We are located here.</h2>
+
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.685647917535!2d77.66941301433377!3d12.927914419334424!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae13b73f25f92b%3A0xcbfa5aac5b0e71ae!2sLexus%20Premium%20PG%20For%20Gents!5e0!3m2!1sen!2sin!4v1633276203003!5m2!1sen!2sin"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+          ></iframe>
+        </div>
+        <div class="section__form">
+          <form action="#" method="POST" class="form" autocomplete="off">
+            <div class="form__heading">
+              <h2>Contact Us!</h2>
+            </div>
+
+            <div class="form__group">
+              <label for="name" class="form__label">Full Name</label>
+              <input
+                type="text"
+                class="form__input"
+                placeholder="Full Name"
+                id="name"
+                required
+              />
+            </div>
+
+            <div class="form__group">
+              <label for="email" class="form__label">Email address</label>
+              <input
+                type="email"
+                class="form__input"
+                placeholder="Email address"
+                id="email"
+                required
+              />
+            </div>
+
+            <div class="form__group form__radio-group">
+              <div class="form__radio">
+                <input
+                  type="radio"
+                  class="form__radio-input"
+                  id="male"
+                  name="gender"
+                />
+
+                <label for="male" class="form__radio-label"> Male </label>
+              </div>
+
+              <div class="form__radio">
+                <input
+                  type="radio"
+                  class="form__radio-input"
+                  id="female"
+                  name="gender"
+                />
+
+                <label for="female" class="form__radio-label"> Female </label>
+              </div>
+
+              <div class="form__radio">
+                <input
+                  type="radio"
+                  class="form__radio-input"
+                  id="others"
+                  name="gender"
+                />
+
+                <label for="others" class="form__radio-label"> Others </label>
+              </div>
+            </div>
+            <div class="form__group">
+              <button type="submit" class="form__submit-button">
+                Submit Info
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <ul class="footer__nav">
+        <li class="footer__item">
+          <a href="#" class="footer__link">Privacy Policy</a>
+        </li>
+        <li class="footer__item">
+          <a href="#" class="footer__link">Terms of Use</a>
+        </li>
+        <li class="footer__item">
+          <a href="#" class="footer__link">Careers</a>
+        </li>
+        <li class="footer__item"><a href="#" class="footer__link">Blog</a></li>
+      </ul>
+
+      <img src="./img/icon.png" alt="Logo" class="footer__logo" />
+
+      <p class="footer__copyright">
+        &copy; Copyright by
+        <a href="#" class="footer__link">The Fictional Company</a>. Created by
+        <span class="bold-txt">Ravi Shankar Singh.</span>
+      </p>
+    </footer>
+  </body>
+</html>
